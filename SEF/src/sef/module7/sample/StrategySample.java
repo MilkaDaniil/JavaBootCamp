@@ -2,7 +2,7 @@ package sef.module7.sample;
 
 public class StrategySample {
 
-	public static void main(String arg[]){
+	public static void main(String args[]){
 		
 		//Use interfaces when declaring identifiers instead of the actual classes
 		

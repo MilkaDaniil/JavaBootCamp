@@ -14,7 +14,7 @@ public class NumToWords {
 	 */
 	public static void main(String[] args) {
 		
-		for ( int i = 1; i < 11; i++ ) {
+		for ( int i = 1; i < 12; i++ ) {
 			System.out.println ( "The value of i is:- " + i );
 		}
 
@@ -38,6 +38,7 @@ public class NumToWords {
 			break;
 		case 5:
 			numText = "FIVE";
+			System.out.println(numText);
 			break;
 			// complete the code.
 		default:

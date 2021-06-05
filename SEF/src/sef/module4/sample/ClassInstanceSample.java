@@ -10,7 +10,7 @@ public class ClassInstanceSample {
 		//Object instance creation using 'new' and passing parameters to constructors
 		Person him = new Person("John Doe");
 		Person her = new Person("Jane Doe");
-		Person unknown = new Person();
+		Person unknown =   new Person();
 		
 		
 		//Access an object's member method to invoke a behavior

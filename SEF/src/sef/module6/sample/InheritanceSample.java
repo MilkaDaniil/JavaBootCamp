@@ -3,7 +3,7 @@ package sef.module6.sample;
 public class InheritanceSample {
 
 	
-	public static void main(String arg[]){
+	public static void main(String args[]){
 		
 		Person_I p = new Person_I();
 		p.setName("John Doe");
@@ -24,18 +24,18 @@ public class InheritanceSample {
 		s.setAge(15);
 		
 		
-		// Print Info using Student_I object
-		System.out.println("-----------------------------");
-		System.out.println("Student's Name is   : " + s.getName());
-		System.out.println("Student's Age is    : " + s.getAge());
-		System.out.println("Student's Grade is  : " + s.getGrade());
-		System.out.println("Student's School is : " + s.getSchool());
-		
-		
-		// Print Info using Person_I object
-		System.out.println("-----------------------------");
-		System.out.println("Person's Name is    : " + p.getName());
-		System.out.println("Person's Age is     : " + p.getAge());
+//		// Print Info using Student_I object
+//		System.out.println("-----------------------------");
+//		System.out.println("Student's Name is   : " + s.getName());
+//		System.out.println("Student's Age is    : " + s.getAge());
+//		System.out.println("Student's Grade is  : " + s.getGrade());
+//		System.out.println("Student's School is : " + s.getSchool());
+//
+//
+//		// Print Info using Person_I object
+//		System.out.println("-----------------------------");
+//		System.out.println("Person's Name is    : " + p.getName());
+//		System.out.println("Person's Age is     : " + p.getAge());
 		
 		// Following will give compilation error as Person_I is a superclass and cannot access
 		// methods from the subclass

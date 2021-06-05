@@ -27,6 +27,8 @@ public class ErrorSample {
 		System.out.println("Infinity!");
 		//2 - Call infinity()
 		infinity();
+
+
 	
 	}
 }

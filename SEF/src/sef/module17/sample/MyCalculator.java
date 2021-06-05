@@ -3,6 +3,13 @@ package sef.module17.sample;
 class MyCalculator {
 	
 	public int getSum(int a, int b) {
+		if (a<0) {
+			System.out.println("number is too short to perform addition");
+
+		}
+		else{
+			System.out.println("number is too short to perform additon");
+		}
 		
 		return a + b;
 	}
